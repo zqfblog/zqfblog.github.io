@@ -23,12 +23,12 @@ body {
     line-height: 1.6;
 }
 
-.prod-item-head a {
+.prod-item-head a,.prod-item-tutorial a {
     color: #3b8bba;
     text-decoration: none;
 }
 
-.prod-item-head a:visited {
+.prod-item-head a:visited,.prod-item-tutorial a:visited {
     color: #265778;
 }
 
