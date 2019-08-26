@@ -23,8 +23,13 @@ body {
     line-height: 1.6;
 }
 
-a {
+.prod-item-head a {
+    color: #3b8bba;
     text-decoration: none;
+}
+
+.prod-item-head a:visited {
+    color: #265778;
 }
 
 #main {
@@ -134,6 +139,7 @@ a {
 .pure-button-success,
 .pure-button-error,
 .pure-button-warning,
+.pure-button-primary,
 .pure-button-secondary {
     color: white;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -158,3 +164,24 @@ a {
     background: rgb(66, 184, 221);
     /* this is a light blue */
 }
+
+
+.button-xsmall {
+    font-size: 70%;
+}
+
+.button-small {
+    font-size: 85%;
+}
+
+.button-large {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.button-xlarge {
+    font-size: 125%;
+}
+
+
+.prod-item-tutorial{padding: 1em;}
