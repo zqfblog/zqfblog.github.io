@@ -101,7 +101,11 @@ body {
     font-size: 87.5%;
     background: rgb(250, 250, 250);
     text-align: center;
+    border-top: 3px solid #eee;
 }
+.footer-content{max-width: 980px;margin: 0 auto;line-height: 1.2;}
+.footer-content>div:first-child>p{text-align: left;}
+.footer-content>div:last-child>p{text-align: right;}
 
 .layout-item-modules {
     padding: 0;
@@ -217,6 +221,8 @@ body {
 }
 
 .sky {
-    background-color: rgb(250, 250, 250);
+    max-width: 980px;
+  margin: 0 auto; 
     text-align: center;
 }
+.sky-left img{height: 50px;}

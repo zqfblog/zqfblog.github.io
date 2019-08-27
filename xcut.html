@@ -3,6 +3,12 @@
 
 <head>
     <title>xCut - Screenshot Capture Tool</title>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="xCut is a chrome extension that not only captures the screen,but also edits images and saves or shares them with social media.">
+    <meta name="keywords" content="screenshot capture,chrome extension,chrome plugin,chrome插件">
+    <meta name="author" content="oseye">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
         integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
@@ -12,23 +18,29 @@
 
 <body>
     <div class="pure-g">
-        <div class="pure-u-1 sky">
-            <ul class="layout-item-modules">
-                <li class="layout-item-module layout-item-module-base pure-u">
-                    <a href="/">home</a>
-                </li>
-                <li class="layout-item-module layout-item-module-grids pure-u menu-active">
-                    <a href="/xcut.html">xCut</a>
-                </li>
-                <li class="layout-item-module layout-item-module-buttons pure-u">
-                    <a href="/jformat.html">jFormat</a>
-                </li>
-                <li class="layout-item-module layout-item-module-menus pure-u">
-                    <a href="/xqrcode.html">XQRCode</a>
-                </li>
-            </ul>
+        <div class="pure-u-1" style=" background-color: rgb(250, 250, 250);">
+            <div class="pure-g sky">
+                <div class="pure-u-1 pure-u-md-2-5 sky-left"><a href="/"><img src="assets/img/oseye-logo.png"></a></div>
+                <div class="pure-u-1 pure-u-md-2-5 sky-right">
+                    <ul class="layout-item-modules">
+                        <li class="layout-item-module layout-item-module-base pure-u">
+                            <a href="/">home</a>
+                        </li>
+                        <li class="layout-item-module layout-item-module-grids pure-u menu-active">
+                            <a href="/xcut.html">xCut</a>
+                        </li>
+                        <li class="layout-item-module layout-item-module-buttons pure-u">
+                            <a href="/jformat.html">jFormat</a>
+                        </li>
+                        <li class="layout-item-module layout-item-module-menus pure-u">
+                            <a href="/xqrcode.html">XQRCode</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
+
     <div id="main">
         <div class="header">
             <img style="width:60px;height:60px;" src="assets/img/xcut-icon.png">
@@ -90,6 +102,7 @@
                         <li>Fix: don't work immediately after updating;</li>
                     </ul>
 
+
                     <h4>xCut-1.0.3 [2019-08-25]</h4>
                     <ul>
                         <li>Change: enriched preservation pages;</li>
@@ -125,7 +138,14 @@
 
     <div class="pure-g footer">
         <div class="pure-u-1">
-            <p>oseye.net</p>
+            <div class="pure-g footer-content">
+                <div class="pure-u-1 pure-u-md-3-5">
+                    <p>Bring simple to life</p>
+                </div>
+                <div class="pure-u-1 pure-u-md-2-5">
+                    <p>Copyright © 2019 oseEye.net.</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
