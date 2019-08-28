@@ -103,9 +103,15 @@ body {
     text-align: center;
     border-top: 3px solid #eee;
 }
-.footer-content{max-width: 980px;margin: 0 auto;line-height: 1.2;}
+.footer-content{width: 980px;margin: 0 auto;line-height: 1.2;}
+@media screen and (min-width: 48em){
 .footer-content>div:first-child>p{text-align: left;}
 .footer-content>div:last-child>p{text-align: right;}
+}
+
+@media screen and (min-width: 35.5em){
+    .footer-content>div>p{text-align:center;}
+    }
 
 .layout-item-modules {
     padding: 0;
@@ -226,3 +232,7 @@ body {
     text-align: center;
 }
 .sky-left img{height: 50px;}
+
+@media screen and (min-width: 35.5em){
+    .footer{text-align: center;}
+}
