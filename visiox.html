@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <title>XQRCode - QRcode Generate Tool</title>
+    <title>xCut - Screenshot Capture Tool</title>
     <meta charset="utf-8">
     <meta name="description"
-        content="XQRCode is a chrome extension, which is used to generate the two-dimensional code of the current website address.">
-    <meta name="keywords" content="qrcode,2d Barcode,chrome extension,chrome plugin,chrome插件">
+        content="xCut is a chrome extension that not only captures the screen,but also edits images and saves or shares them with social media.">
+    <meta name="keywords" content="screenshot capture,chrome extension,chrome plugin,chrome插件">
     <meta name="author" content="oseye">
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +26,7 @@
                         <li class="layout-item-module layout-item-module-base pure-u">
                             <a href="/">home</a>
                         </li>
-                        <li class="layout-item-module layout-item-module-grids pure-u">
+                        <li class="layout-item-module layout-item-module-grids pure-u menu-active">
                             <a href="/visiox.html">visioX</a>
                         </li>
                         <li class="layout-item-module layout-item-module-grids pure-u">
@@ -35,7 +35,7 @@
                         <li class="layout-item-module layout-item-module-buttons pure-u">
                             <a href="/jformat.html">jFormat</a>
                         </li>
-                        <li class="layout-item-module layout-item-module-menus pure-u menu-active">
+                        <li class="layout-item-module layout-item-module-menus pure-u">
                             <a href="/xqrcode.html">XQRCode</a>
                         </li>
                     </ul>
@@ -46,31 +46,29 @@
 
     <div id="main">
         <div class="header">
-            <img style="width:60px;height:60px;" src="assets/img/xqrcode-icon.png">
-            <h1>QRcode Generate Tool</h1>
+            <img style="width:60px;height:60px;" src="assets/img/visiox-icon.png">
+            <h1>Diagram Tool</h1>
 
-            <h2>XQRCode is a chrome extension, which is used to generate the two-dimensional code of the current website
-                address.
-                It is convenient and efficient to transmit data in a variety of devices.</h2>
+            <h2>visioX makes UML diagrams, flowcharts, wireframes and more. Our diagramming software and visual
+                communication tools improve team collaboration and workflow.</h2>
         </div>
         <div class="content">
             <div class="pure-g">
                 <div class="pure-u-1" style="margin-top:30px;padding-bottom:20px;border-bottom: 1px solid #eee;">
-                    <img style="margin:0 auto;" class="pure-img" src="assets/img/xqrcode.jpg">
+                    <img style="margin:0 auto;" class="pure-img" src="assets/img/visiox.jpg">
                     <p class="prod-item-buttons">
-                        <a href="xqrcode.html#getstarted" class="pure-button pure-button-primary button-small">Get
+                        <a href="visiox.html#getstarted" class="pure-button pure-button-primary button-small">Get
                             Started</a>
-                        <a href="download/xqrcode.zip" class="pure-button button-small">Download</a>
-                        <a href="https://chrome.google.com/webstore/detail/xqrcode/bagbelnemkdcggfljhikjfjnlhmbnien"
+                        <a href="download/visiox.zip" class="pure-button button-small">Download</a>
+                        <a href="https://chrome.google.com/webstore/detail/visiox-diagram-tools/mjbdpkcchddlpljcieenigmkdhcnpfnd"
                             target="_blank" class="pure-button pure-button-success button-small">Online Install</a>
+                        <a href="visiox.html#changelog" class="pure-button button-small">ChangeLog</a>
                     </p>
-                    <h>Feature</h>
                     <blockquote class="content-quote">
                         <ul class="feature">
-                            <li> - shortcut:Ctrl+Q</li>
-                            <li> - generate the current url QR</li>
-                            <li> - add the website icon to QR</li>
-                            <li> - download QR</li>
+                            <li> - Keyboard Shortcut:Ctrl+D</li>
+                            <li> - Support flowcharts diagramming</li>
+                            <li> - Export to image</li>
                         </ul>
                     </blockquote>
                 </div>
@@ -80,14 +78,13 @@
                 <div class="prod-item-tutorial">
                     <h2>Quick Start</h2>
                     <h3>Online Install</h3>
-                    <p>xQRCode can work with Chrome or Chromium web browser. you can install it on the google web store
+                    <p>xCut can work with Chrome or Chromium web browser. you can install it on the google web store
                         by the link:<a
-                            href="https://chrome.google.com/webstore/detail/xqrcode/bagbelnemkdcggfljhikjfjnlhmbnien"
+                            href="https://chrome.google.com/webstore/detail/xcut/albhdmnbkfbldomolcjakelckcnedhgb"
                             target="_blank">Online Install</a>.</p>
                     <h3>Offline Install</h3>
                     <ol>
-                        <li>You also can click <a href="download/xqrcode.zip">the link to download</a> the zip and
-                            install
+                        <li>You also can click <a href="download/xcut.zip">the link to download</a> the zip and install
                             it offline</li>
                         <li>Unzip the pakcage to whatever you like. </li>
                         <li>Open the Extension Management page by navigating to chrome://extensions.
@@ -105,29 +102,16 @@
                 </div>
             </div>
 
+
             <div class="purg-g">
                 <div id="changelog">
                     <h2>ChangeLog</h2>
 
-                    <h4>xQRCode-1.0.2 [2019-08-31]</h4>
+                    <h4>visioX-1.0.0 [2019-09-18]</h4>
                     <ul>
-                        <li>Change: support language:es and ko </li>
-                        <li>Change: set Error correction level 25% </li>
-                        <li>Change: disable download button when catch error </li>
-                        <li>Change: modify the name and add the short name </li>
-                    </ul>
-
-                    <h4>xQRCode-1.0.1 [2019-08-28]</h4>
-                    <ul>
-                        <li>Feature:add website icon to the QR; </li>
-                        <li>Feature:add 'Ctrl+Q' shortcut to toggle; </li>
-                    </ul>
-
-                    <h4>xQRCode-1.0.0 [2019-08-20]</h4>
-                    <ul>
-                        <li>Feature: get current url to generate QR;</li>
-                        <li>Feature: show the website title below the QR;</li>
-                        <li>Feature: download the QR;</li>
+                        <li>Feature: Keyboard Shortcut:Ctrl+D;</li>
+                        <li>Feature: Export to image;</li>
+                        <li>Feature: Support flowcharts diagramming;</li>
                     </ul>
                 </div>
             </div>
