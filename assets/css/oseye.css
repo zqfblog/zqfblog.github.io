@@ -150,6 +150,10 @@ body {
     border-left: 3px solid rgb(250, 210, 50);
 }
 
+.layout-item-module-github a {
+    border-left: 3px solid rgb(75,75,75);
+}
+
 .layout-item-module a:link,
 .layout-item-module a:visited {
     text-transform: capitalize;
